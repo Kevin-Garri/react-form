@@ -9,9 +9,9 @@ const Form = () => {
   //funzione submit
   const handlerSubmit = (e) => {
     e.preventDefault();
-    setArticles([title, ...articles]);
+    setTitle([articles, ...title]);
   };
 
-}
+};
 
 export default Form;
